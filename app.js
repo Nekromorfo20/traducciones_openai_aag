@@ -55,5 +55,5 @@ app.post("/api/traducir", async (req, res) => {
 
 // Servir el backend
 app.listen(PORT, () => {
-    console.log(`Servidor ejecutandose en http://localhost${PORT}`);
+    console.log(`Servidor ejecutandose en http://localhost:${PORT}`);
 });
